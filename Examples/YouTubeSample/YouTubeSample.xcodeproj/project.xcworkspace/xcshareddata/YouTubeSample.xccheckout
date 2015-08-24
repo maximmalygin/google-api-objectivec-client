@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CA75C67E-4777-4BBE-B7F0-6451823C95E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YouTubeSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D01D5BCCDE322646FEB1945347C3CF4E96976E3</key>
+		<string>https://github.com/google/gtm-oauth2.git</string>
+		<key>9E017D23A84DD10A7125B3391694F3298DD3D434</key>
+		<string>https://github.com/google/gtm-http-fetcher.git</string>
+		<key>D58DF7C3E72198199D1B65DDDAADD2A7790F9A98</key>
+		<string>https://github.com/maximmalygin/google-api-objectivec-client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Examples/YouTubeSample/YouTubeSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D01D5BCCDE322646FEB1945347C3CF4E96976E3</key>
+		<string>../../../..Dependencies/gtm-oauth2/</string>
+		<key>9E017D23A84DD10A7125B3391694F3298DD3D434</key>
+		<string>../../../..Dependencies/gtm-http-fetcher/</string>
+		<key>D58DF7C3E72198199D1B65DDDAADD2A7790F9A98</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maximmalygin/google-api-objectivec-client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D58DF7C3E72198199D1B65DDDAADD2A7790F9A98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D58DF7C3E72198199D1B65DDDAADD2A7790F9A98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>google-api-objectivec-client</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E017D23A84DD10A7125B3391694F3298DD3D434</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gtm-http-fetcher</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D01D5BCCDE322646FEB1945347C3CF4E96976E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gtm-oauth2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

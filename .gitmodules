@@ -1,0 +1,6 @@
+[submodule "Dependencies/gtm-oauth2"]
+	path = Dependencies/gtm-oauth2
+	url = https://github.com/google/gtm-oauth2.git
+[submodule "Dependencies/gtm-http-fetcher"]
+	path = Dependencies/gtm-http-fetcher
+	url = https://github.com/google/gtm-http-fetcher.git
