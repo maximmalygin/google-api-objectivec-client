@@ -409,7 +409,7 @@
 		4FDE22561384818E005AEFAA /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRuntimeCommon.m; path = Objects/GTLRuntimeCommon.m; sourceTree = "<group>"; };
 		4FDE22571384818E005AEFAA /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLService.h; path = Objects/GTLService.h; sourceTree = "<group>"; };
 		4FDE22581384818E005AEFAA /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLService.m; path = Objects/GTLService.m; sourceTree = "<group>"; };
-		8A88D9631B8B5A420015EA16 /* GTLFramework copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "GTLFramework copy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A88D9631B8B5A420015EA16 /* GTLFramework_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTLFramework_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A88D9641B8B5A420015EA16 /* GTLFramework_iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = GTLFramework_iOS.plist; path = "/Users/maximmalyhin/Documents/install/lib/google-api-objectivec-client/Source/GTLFramework_iOS.plist"; sourceTree = "<absolute>"; };
 		8A88D9681B8B5FA30015EA16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8A88D96A1B8B5FCF0015EA16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -535,7 +535,7 @@
 				4F1AD9020B71603F00DC0485 /* DevelopmentTestTool */,
 				4F12027C11A4CA2F00BEB470 /* libGTLTouchStaticLib.a */,
 				4F12027D11A4CA2F00BEB470 /* GTLUnitTests.xctest */,
-				8A88D9631B8B5A420015EA16 /* GTLFramework copy.framework */,
+				8A88D9631B8B5A420015EA16 /* GTLFramework_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -913,7 +913,7 @@
 			);
 			name = GTLFramework_iOS;
 			productName = GTLFramework;
-			productReference = 8A88D9631B8B5A420015EA16 /* GTLFramework copy.framework */;
+			productReference = 8A88D9631B8B5A420015EA16 /* GTLFramework_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1426,7 +1426,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "GTLFramework copy";
+				PRODUCT_NAME = GTLFramework_iOS;
 				SDKROOT = iphoneos;
 				STRIP_STYLE = "non-global";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1449,7 +1449,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "GTLFramework copy";
+				PRODUCT_NAME = GTLFramework_iOS;
 				SDKROOT = iphoneos;
 				STRIP_STYLE = "non-global";
 				TARGETED_DEVICE_FAMILY = "1,2";
