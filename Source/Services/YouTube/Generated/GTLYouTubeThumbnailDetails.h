@@ -31,7 +31,7 @@
 #if GTL_BUILT_AS_FRAMEWORK
   #import "GTL/GTLObject.h"
 #else
-  #import "GTLObject.h"
+  #import <GTLObject.h>
 #endif
 
 @class GTLYouTubeThumbnail;
