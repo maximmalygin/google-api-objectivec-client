@@ -219,8 +219,8 @@
 		4F8DB6DC13FDC0240001DD6C /* Copy Static Library Headers */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = Headers;
-			dstSubfolderSpec = 16;
+			dstPath = $BUILT_PRODUCTS_DIR/Headers;
+			dstSubfolderSpec = 0;
 			files = (
 				4F934E6C1512713000C4EA34 /* GTLBase64.h in Copy Static Library Headers */,
 				4F8DB6DE13FDC0F50001DD6C /* GTLBatchQuery.h in Copy Static Library Headers */,
@@ -1182,6 +1182,7 @@
 		4F1C6E101027B3CF00B46459 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DGTL_IPHONE=1",
@@ -1194,6 +1195,7 @@
 		4F1C6E111027B3CF00B46459 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DGTL_IPHONE=1",
@@ -1249,6 +1251,117 @@
 			};
 			name = Release;
 		};
+		8A88E2FF1B8D079A0015EA16 /* Reference_Debug_MediaSharing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Werror",
+					"-Wendif-labels",
+					"-Wnewline-eof",
+					"-Wfloat-equal",
+					"-Wundeclared-selector",
+					"-Wextra",
+					"-Wstrict-overflow",
+					"-Wconversion",
+					"-Wformat=2",
+					"-Wformat-security",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wstrict-selector-match",
+					"-Wno-unused-parameter",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Reference_Debug_MediaSharing;
+		};
+		8A88E3001B8D079A0015EA16 /* Reference_Debug_MediaSharing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Resources/GTLFramework-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = GTL;
+				STRIP_STYLE = "non-global";
+			};
+			name = Reference_Debug_MediaSharing;
+		};
+		8A88E3011B8D079A0015EA16 /* Reference_Debug_MediaSharing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DGTL_IPHONE=1",
+				);
+				PRODUCT_NAME = GTLTouchStaticLib;
+				SDKROOT = iphoneos;
+			};
+			name = Reference_Debug_MediaSharing;
+		};
+		8A88E3021B8D079A0015EA16 /* Reference_Debug_MediaSharing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Resources/GTLUnitTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DGTL_UTILITIES_BASE64=1",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+				);
+				PRODUCT_NAME = GTLUnitTests;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Reference_Debug_MediaSharing;
+		};
+		8A88E3031B8D079A0015EA16 /* Reference_Debug_MediaSharing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Resources/DevTestTool-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = DevelopmentTestTool;
+			};
+			name = Reference_Debug_MediaSharing;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1256,6 +1369,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB913F08733D840010E9CD /* Debug */,
+				8A88E2FF1B8D079A0015EA16 /* Reference_Debug_MediaSharing */,
 				1DEB914008733D840010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1265,6 +1379,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F14A9E00B1276B70072EBB8 /* Debug */,
+				8A88E3021B8D079A0015EA16 /* Reference_Debug_MediaSharing */,
 				4F14A9E10B1276B70072EBB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1274,6 +1389,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F1AD9090B71606100DC0485 /* Debug */,
+				8A88E3031B8D079A0015EA16 /* Reference_Debug_MediaSharing */,
 				4F1AD90A0B71606100DC0485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1283,6 +1399,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F1C6E101027B3CF00B46459 /* Debug */,
+				8A88E3011B8D079A0015EA16 /* Reference_Debug_MediaSharing */,
 				4F1C6E111027B3CF00B46459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1292,6 +1409,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F38F7120B66EF2C00B24B81 /* Debug */,
+				8A88E3001B8D079A0015EA16 /* Reference_Debug_MediaSharing */,
 				4F38F7130B66EF2C00B24B81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
