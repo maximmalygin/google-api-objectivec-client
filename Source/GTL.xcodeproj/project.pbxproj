@@ -219,8 +219,8 @@
 		4F8DB6DC13FDC0240001DD6C /* Copy Static Library Headers */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = $BUILT_PRODUCTS_DIR/Headers;
-			dstSubfolderSpec = 0;
+			dstPath = Headers;
+			dstSubfolderSpec = 16;
 			files = (
 				4F934E6C1512713000C4EA34 /* GTLBase64.h in Copy Static Library Headers */,
 				4F8DB6DE13FDC0F50001DD6C /* GTLBatchQuery.h in Copy Static Library Headers */,
@@ -1189,6 +1189,7 @@
 				);
 				PRODUCT_NAME = GTLTouchStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -1202,6 +1203,7 @@
 				);
 				PRODUCT_NAME = GTLTouchStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -1323,6 +1325,7 @@
 				);
 				PRODUCT_NAME = GTLTouchStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Production_Debug_MediaSharing;
 		};
@@ -1434,6 +1437,7 @@
 				);
 				PRODUCT_NAME = GTLTouchStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Reference_Debug_MediaSharing;
 		};
